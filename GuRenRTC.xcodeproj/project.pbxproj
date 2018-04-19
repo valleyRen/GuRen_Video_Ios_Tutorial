@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90AB82D2081A142006AEE5E /* RtcEngineDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A90AB82C2081A142006AEE5E /* RtcEngineDelegate.m */; };
+		A92E99BA20803B9B004803C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E99B920803B9B004803C9 /* AppDelegate.m */; };
+		A92E99BD20803B9B004803C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E99BC20803B9B004803C9 /* ViewController.m */; };
+		A92E99C020803B9B004803C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92E99BE20803B9B004803C9 /* Main.storyboard */; };
+		A92E99C220803B9D004803C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92E99C120803B9D004803C9 /* Assets.xcassets */; };
+		A92E99C520803B9D004803C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92E99C320803B9D004803C9 /* LaunchScreen.storyboard */; };
+		A92E99C820803B9D004803C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E99C720803B9D004803C9 /* main.m */; };
+		A92E99D020805A30004803C9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E99CF20805A30004803C9 /* SettingsViewController.m */; };
+		A92E99D320805D6D004803C9 /* libxRTCEngineCore-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99D220805D6D004803C9 /* libxRTCEngineCore-iOS.a */; };
+		A92E99D62080927B004803C9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99D52080927A004803C9 /* CoreAudio.framework */; };
+		A92E99D820809282004803C9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99D720809282004803C9 /* CoreVideo.framework */; };
+		A92E99DA20809288004803C9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99D920809288004803C9 /* CoreMedia.framework */; };
+		A92E99DC2080928F004803C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99DB2080928F004803C9 /* AudioToolbox.framework */; };
+		A92E99DE2080929A004803C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99DD2080929A004803C9 /* AVFoundation.framework */; };
+		A92E99E020809305004803C9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E99DF20809305004803C9 /* libc++.tbd */; };
+		A92E99E320809C0C004803C9 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E99E220809C0C004803C9 /* RoomViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A90AB82B2081A142006AEE5E /* RtcEngineDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtcEngineDelegate.h; sourceTree = "<group>"; };
+		A90AB82C2081A142006AEE5E /* RtcEngineDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RtcEngineDelegate.m; sourceTree = "<group>"; };
+		A92E99B520803B9B004803C9 /* GuRenRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuRenRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92E99B820803B9B004803C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A92E99B920803B9B004803C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A92E99BB20803B9B004803C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A92E99BC20803B9B004803C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A92E99BF20803B9B004803C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92E99C120803B9D004803C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92E99C420803B9D004803C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92E99C620803B9D004803C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92E99C720803B9D004803C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92E99CE20805A30004803C9 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A92E99CF20805A30004803C9 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A92E99D120805D6D004803C9 /* xRTCEngineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRTCEngineKit.h; sourceTree = "<group>"; };
+		A92E99D220805D6D004803C9 /* libxRTCEngineCore-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libxRTCEngineCore-iOS.a"; sourceTree = "<group>"; };
+		A92E99D52080927A004803C9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A92E99D720809282004803C9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A92E99D920809288004803C9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A92E99DB2080928F004803C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A92E99DD2080929A004803C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A92E99DF20809305004803C9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A92E99E120809C0C004803C9 /* RoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		A92E99E220809C0C004803C9 /* RoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92E99B220803B9B004803C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E99E020809305004803C9 /* libc++.tbd in Frameworks */,
+				A92E99DE2080929A004803C9 /* AVFoundation.framework in Frameworks */,
+				A92E99DC2080928F004803C9 /* AudioToolbox.framework in Frameworks */,
+				A92E99DA20809288004803C9 /* CoreMedia.framework in Frameworks */,
+				A92E99D820809282004803C9 /* CoreVideo.framework in Frameworks */,
+				A92E99D62080927B004803C9 /* CoreAudio.framework in Frameworks */,
+				A92E99D320805D6D004803C9 /* libxRTCEngineCore-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92E99AC20803B9B004803C9 = {
+			isa = PBXGroup;
+			children = (
+				A92E99B720803B9B004803C9 /* GuRenRTC */,
+				A92E99B620803B9B004803C9 /* Products */,
+				A92E99D42080927A004803C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A92E99B620803B9B004803C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92E99B520803B9B004803C9 /* GuRenRTC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92E99B720803B9B004803C9 /* GuRenRTC */ = {
+			isa = PBXGroup;
+			children = (
+				A92E99D220805D6D004803C9 /* libxRTCEngineCore-iOS.a */,
+				A92E99D120805D6D004803C9 /* xRTCEngineKit.h */,
+				A92E99B820803B9B004803C9 /* AppDelegate.h */,
+				A92E99B920803B9B004803C9 /* AppDelegate.m */,
+				A92E99BB20803B9B004803C9 /* ViewController.h */,
+				A92E99BC20803B9B004803C9 /* ViewController.m */,
+				A92E99CE20805A30004803C9 /* SettingsViewController.h */,
+				A92E99CF20805A30004803C9 /* SettingsViewController.m */,
+				A92E99BE20803B9B004803C9 /* Main.storyboard */,
+				A92E99C120803B9D004803C9 /* Assets.xcassets */,
+				A92E99C320803B9D004803C9 /* LaunchScreen.storyboard */,
+				A92E99C620803B9D004803C9 /* Info.plist */,
+				A92E99C720803B9D004803C9 /* main.m */,
+				A92E99E120809C0C004803C9 /* RoomViewController.h */,
+				A92E99E220809C0C004803C9 /* RoomViewController.m */,
+				A90AB82B2081A142006AEE5E /* RtcEngineDelegate.h */,
+				A90AB82C2081A142006AEE5E /* RtcEngineDelegate.m */,
+			);
+			path = GuRenRTC;
+			sourceTree = "<group>";
+		};
+		A92E99D42080927A004803C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92E99DF20809305004803C9 /* libc++.tbd */,
+				A92E99DD2080929A004803C9 /* AVFoundation.framework */,
+				A92E99DB2080928F004803C9 /* AudioToolbox.framework */,
+				A92E99D920809288004803C9 /* CoreMedia.framework */,
+				A92E99D720809282004803C9 /* CoreVideo.framework */,
+				A92E99D52080927A004803C9 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92E99B420803B9B004803C9 /* GuRenRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92E99CB20803B9D004803C9 /* Build configuration list for PBXNativeTarget "GuRenRTC" */;
+			buildPhases = (
+				A92E99B120803B9B004803C9 /* Sources */,
+				A92E99B220803B9B004803C9 /* Frameworks */,
+				A92E99B320803B9B004803C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuRenRTC;
+			productName = GuRenRTC;
+			productReference = A92E99B520803B9B004803C9 /* GuRenRTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92E99AD20803B9B004803C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = GuDian;
+				TargetAttributes = {
+					A92E99B420803B9B004803C9 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A92E99B020803B9B004803C9 /* Build configuration list for PBXProject "GuRenRTC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92E99AC20803B9B004803C9;
+			productRefGroup = A92E99B620803B9B004803C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92E99B420803B9B004803C9 /* GuRenRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92E99B320803B9B004803C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E99C520803B9D004803C9 /* LaunchScreen.storyboard in Resources */,
+				A92E99C220803B9D004803C9 /* Assets.xcassets in Resources */,
+				A92E99C020803B9B004803C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92E99B120803B9B004803C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E99BD20803B9B004803C9 /* ViewController.m in Sources */,
+				A92E99E320809C0C004803C9 /* RoomViewController.m in Sources */,
+				A90AB82D2081A142006AEE5E /* RtcEngineDelegate.m in Sources */,
+				A92E99C820803B9D004803C9 /* main.m in Sources */,
+				A92E99BA20803B9B004803C9 /* AppDelegate.m in Sources */,
+				A92E99D020805A30004803C9 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A92E99BE20803B9B004803C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92E99BF20803B9B004803C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92E99C320803B9D004803C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92E99C420803B9D004803C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92E99C920803B9D004803C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A92E99CA20803B9D004803C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92E99CC20803B9D004803C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV2997M28Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GuRenRTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuRenRTC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gudian.guren..GuRenRTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A92E99CD20803B9D004803C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV2997M28Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GuRenRTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuRenRTC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gudian.guren..GuRenRTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92E99B020803B9B004803C9 /* Build configuration list for PBXProject "GuRenRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92E99C920803B9D004803C9 /* Debug */,
+				A92E99CA20803B9D004803C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92E99CB20803B9D004803C9 /* Build configuration list for PBXNativeTarget "GuRenRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92E99CC20803B9D004803C9 /* Debug */,
+				A92E99CD20803B9D004803C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92E99AD20803B9B004803C9 /* Project object */;
+}
